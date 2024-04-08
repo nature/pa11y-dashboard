@@ -1,5 +1,28 @@
 # Changelog
 
+## 4.3.0 (2024-03-26)
+
+### Changes
+
+* Improve console messaging (thanks @sangitamane)
+* Address linting issues (thanks @josebolos and @hollsk)
+* Various accessibility improvements to dashboard pages (thanks @sangitamane)
+* Improve version support and its verification
+  * Support Node 16-20
+  * Support MongoDB `2`, `4`, `5`, `6`, `latest`
+  * Fix various integration test issues
+  * Add info to readme about Ubuntu `> 20.04` workaround (issue will be fixed by `pa11y-dashboard@5.0.0`)
+* Minor dependency upgrades
+* Update support policy
+
+### New contributors
+
+* @danyalaytekin made their first contribution in https://github.com/pa11y/pa11y-dashboard/pull/315
+
+### Full diff
+
+* [4.2.0...4.3.0](https://github.com/pa11y/pa11y-dashboard/compare/4.2.0...4.3.0)
+
 ## 4.2.0 (2022-03-30)
 
 * Add request logging for easier debugging

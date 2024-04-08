@@ -21,7 +21,7 @@ Pa11y Dashboard is a web interface to the [Pa11y][pa11y] accessibility reporter;
 
 Pa11y (and therefore this service) uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install it as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
 
-In addition, to use Pa11y Dashboard 4 with a version of Ubuntu above 20.04, a path to the Chrome executable must be defined in `chromeLaunchConfig`, as `chromeLaunchConfig.executablePath`. Version 5 of Pa11y Dashboard, which will use Pa11y 7 along with a more recent version of Puppeteer, will resolve this issue.
+In addition, to use Pa11y Dashboard 4 with a version of Ubuntu above 20.04, a path to the Chrome executable must be defined in `chromeLaunchConfig`, as `chromeLaunchConfig.executablePath`. Version 5 of Pa11y Dashboard, which will use Pa11y 8 along with a more recent version of Puppeteer, will resolve this issue.
 
 ## Setting up Pa11y Dashboard
 
@@ -188,17 +188,17 @@ When we release a new major version we will continue to support the previous maj
 
 The following table lists the major versions available and, for each previous major version, its end-of-support date, and its final minor version released.
 
-| Major version | Last minor release | Node.js support             | Support end date |
-| :------------ | :----------------- | :------------------------ | :--------------- |
-| `4`           | Imminent           | `>= 12`                     | ✅ Current major version |
-| `3`           | `3.3.0`            | `8`, `10`                   | 2022-05-26       |
-| `2`           | `2.4.2`            | `4`, `6`                    | 2020-01-16       |
-| `1`           | `1.12.0`           | `0.10`, `0.12`, `4`, `6`    | 2016-12-05       |
+| Major version | Last minor release | Node.js support              | Support end date |
+| :------------ | :----------------- | :--------------------------- | :--------------- |
+| `4`           | `4.3`              | `12`, `14`, `16`, `18`, `20` | ✅ Current major version |
+| `3`           | `3.3`              | `8`, `10`                    | 2022-05-26       |
+| `2`           | `2.4`              | `4`, `6`                     | 2020-01-16       |
+| `1`           | `1.12`             | `0.10`, `0.12`, `4`, `6`     | 2016-12-05       |
 
 ## License
 
 Pa11y Dashboard is licensed under the [GNU General Public License 3.0][info-license].  
-Copyright &copy; 2023, Team Pa11y and contributors
+Copyright &copy; 2016-2024, Team Pa11y and contributors
 
 [homebrew]: https://brew.sh/
 [issues]: https://github.com/pa11y/pa11y-dashboard/issues?utf8=%E2%9C%93&q=is%3Aissue
